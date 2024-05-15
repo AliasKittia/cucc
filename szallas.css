@@ -102,3 +102,29 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #48b375;
 }
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: calc(30% - 40px); /* Szélesség beállítása, hogy három kártya elférjen egymás mellett */
+  float: left; /* Egymás mellett helyezéshez */
+}
+.card h2 {
+  color: #333;
+}
+.card p {
+  color: #666;
+}
+.card button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
